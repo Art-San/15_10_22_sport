@@ -1,4 +1,4 @@
-import './trainers'
+import './trainers.css'
 
 const Trainers = () => {
   return (
