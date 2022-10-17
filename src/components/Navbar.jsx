@@ -3,9 +3,10 @@ import { Link, NavLink } from "react-router-dom"
 import Logo from "../images/logo.png"
 import { links } from "../data"
 import { GoThreeBars } from 'react-icons/go'
+import { MdOutlineClose } from 'react-icons/md'
 import "./navbar.css"
 
-// 1-09-36 закончил видео смотреть
+// 1-14-19 закончил видео смотреть (анимация css)
 const Navbar = () => {
     const [isNavShowing, setIsNavShowing] = useState(false)
 
@@ -20,15 +21,17 @@ const Navbar = () => {
                 {
                     links.map(({name, path}, index) => {
                         return (
-                            <li key={path}>
+                            <li key={index}>
                                 <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''}>{name}</NavLink>
                             </li>       
                         )
                     })
                 }
             </ul>
-            <button className="nav__toggle-btn">
-                <GoThreeBars/>
+            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}> 
+                {
+                    isNavShowing ?  <MdOutlineClose/> : <GoThreeBars/>
+                }
             </button>
         </div>
     </nav>
