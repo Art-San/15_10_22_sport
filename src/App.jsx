@@ -9,9 +9,9 @@ import Trainers from "./pages/trainers/Trainers"
 import NotFound from "./pages/notFound/NotFound"
 import Navbar from "./components/Navbar"
 
+
 const App = () => {
   return (
-    <div>
       <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -24,7 +24,6 @@ const App = () => {
           <Route path='*' element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
-    </div>
   )
 }
 

@@ -7,10 +7,11 @@ import { MdOutlineClose } from 'react-icons/md'
 import "./navbar.css"
 
 
+
 const Navbar = () => {
     const [isNavShowing, setIsNavShowing] = useState(false)
 
-
+//"container nav__container"
   return (
     <nav>
         <div className="container nav__container">
@@ -22,7 +23,7 @@ const Navbar = () => {
                     links.map(({name, path}, index) => {
                         return (
                             <li key={index}>
-                                <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : 
+                                <NavLink to={path} end className={({isActive}) => isActive ? 'active-nav' : 
                                 ''} onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                             </li>       
                         )

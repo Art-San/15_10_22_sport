@@ -2,7 +2,7 @@ import './gallery.css'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div className='container'>Gallery</div>
   )
 }
 
