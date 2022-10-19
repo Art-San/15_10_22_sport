@@ -1,12 +1,14 @@
 import MainHeader from '../../components/MainHeader'
-import Ofer from '../../components/Ofer'
+import Programs from '../../components/Programs'
+// import Ofer from '../../components/Ofer'
 import './home.css'
 
 const Home = () => {
   return (
     <>
-    <Ofer/>
+    {/* <Ofer/> */}
     <MainHeader/>
+    <Programs/>
     </>
   )
 }

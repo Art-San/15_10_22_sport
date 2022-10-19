@@ -1,13 +1,13 @@
 .main__header {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
     margin-top: 3rem;
 }
 
 .main__header-container {
-    height: 10%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -26,11 +26,34 @@
 }
 
 .main__header-left p {
-    margin: 1rem 0 3.5rem;
+    margin: 1rem 0 3.5rem 0;
     font-size: 1.1rem;
+} 
+
+.main__header-right {
+    display: grid;
+    place-items: center;
+    position: relative;
 }
 
-.ofer__container{
-    background: red;
-    color: black;
+.main__header-circle {
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(45deg, var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    transition: var(--transition);
+    filter: blur(15px);
+    
 }
+
+.main__header-image {
+    position: relative;
+}
+
+.main__header-right:hover .main__header-circle {
+    filter: none;
+}
+
+
+/* 1-56-00 закончил видео смотреть (анимация css) */
