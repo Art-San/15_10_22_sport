@@ -4,7 +4,7 @@ import { GiCutDiamond } from 'react-icons/gi'
 import { values } from '../data'
 import Card from '../UI/Card'
 
-/* 2-11-57 закончил видео смотреть (анимация css) */
+
 
 
 
