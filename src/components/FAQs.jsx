@@ -14,7 +14,7 @@ const FAQs = () => {
                 {
                     faqs.map(({id, question, answer}) => {
                         return (
-                           <FAQ/>
+                           <FAQ key={id} question={question} answer={answer}/>
                         )
                     })
                 }
