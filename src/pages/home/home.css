@@ -236,22 +236,22 @@ section {
 
 
 /*================ Testimonials ==========================*/
-.tesmonials {
+.testimonials {
     width: 50rem;
     margin-inline: auto;
 }
 
-.tesmonials__head {
+.testimonials__head {
     justify-content: center;
 }
 
-.card.tesmonial {
+.card.testimonial {
     position: relative;
     text-align: left;
     margin-top: 5rem;
 }
 
-.tesmonial__avatar {
+.testimonial__avatar {
     width: 4rem;
     height: 4rem;
     border-radius: 1.5rem;
@@ -264,9 +264,38 @@ section {
     transition: var(--transition);
 }
 
-.tesmonial:hover .tesmonial__avatar {
+.testimonial:hover .testimonial__avatar {
     border-radius: 50%;
     border-color: var(--color-gray-400);
 }
 
-/* 2-43-15 закончил видео смотреть  */
+.testimonial__quote {
+    font-style: italic;
+    margin: 1rem 0 2rem ;
+}
+
+.card small.testimonial__title {
+    margin-top: 0.3rem;
+}
+
+.testimonials__btn-container {
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials__btn {
+    background: transparent;
+    cursor: pointer;
+}
+
+.testimonials__btn svg {
+    fill: var(--color-primary);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem;
+}
+
