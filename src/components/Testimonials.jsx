@@ -7,13 +7,13 @@ import { testimonials } from "../data"
 
 
 const Testimonials = () => {
-    const [index, setIndex] = useState(1)
+    const [index, setIndex] = useState(2)
     const {name, quote, job, avatar}= testimonials[index]
     console.log(name, job, avatar)
   return (
     <section className="tesmonials">
         <div className="container testimonals__container">
-            <SectionHead icon={<ImQuotesLeft/>} title="Testimonials"/>
+            <SectionHead icon={<ImQuotesLeft/>} title="Testimonials" className="tesmonials__head" />
             <Card className="tesmonial">
                 <div className="tesmonial__avatar">
                     <img src={avatar} alt={name}></img>
