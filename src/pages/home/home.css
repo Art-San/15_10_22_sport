@@ -44,7 +44,6 @@
     position: absolute;
     transition: var(--transition);
     filter: blur(15px);
-    
 }
 
 .main__header-image {
@@ -53,73 +52,6 @@
 
 .main__header-right:hover .main__header-circle {
     filter: none;
-}
-
-
-/* 1-56-00 закончил видео смотреть (анимация css) */
-
-
-section {
-    margin-top: 10rem;
-}
-
-.section__head {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.section__head span {
-    background: var(--color-gray-500);
-    padding: 0.8rem;
-    border-radius: 1rem;
-    color: var(--color-secondary);
-    font-size: 1.5rem;
-}
-
-
-
-
-
-.card {
-    background: var(--color-gray-500);
-    border: 2px solid transparent;
-    text-align: center;
-    padding: 3rem 2rem;
-    border-radius: 0 3rem 0 3rem;
-    transition: var(--transition);
-}
-
-.card:hover {
-    background: transparent;
-    border-color: var(--color-gray-400);
-    cursor: default;
-}
-
-.card span {
-    width: 3rem;
-    height: 3rem;
-    background: var(--color-primary);
-    color: var(--color-gray-100);
-    font-size: 1.5rem;
-    padding: 0.8rem;
-    display: grid;
-    place-items: center;
-    margin-bottom: 1.5rem;
-    margin-inline: auto;
-    border-radius: 1rem;
-    transition: var(--transition);
-}
-
-.card:hover span {
-    background: var(--color-secondary);
-    color: var(--color-gray-600);
-}
-
-.card small {
-    margin-top: 1rem;
-    display: block;
-    font-weight: 300;
 }
 
 /*================  PROGRAMS ==========================*/
@@ -151,7 +83,6 @@ section {
 
 
 /*================ VALUES ==========================*/
-
 .values__container {
     display: grid;
     grid-template-columns: 30% 50%;
@@ -190,6 +121,14 @@ section {
 
 /* 2-14-30 закончил видео смотреть  */
 
+
+
+
+
+
+
+
+
 /*================ FAQs ==========================*/
 .faqs__wrapper {
     margin-top: 4rem;
@@ -220,6 +159,13 @@ section {
 .faq p {
     margin-top: 1.5rem;
 }
+
+
+
+
+
+
+
 
 
 /*================ Testimonials ==========================*/
@@ -286,6 +232,14 @@ section {
     height: 3rem;
 }
 
+
+
+
+
+
+
+
+
 /*================ FOOTER ==========================*/
 footer {
     background: var(--color-primary);
@@ -331,4 +285,20 @@ footer {
     border-radius: 0.6rem;
     transition: var(--transition);
 }
- 
+
+.footer__social a svg {
+    color: var(--color-gray-600);
+}
+
+.footer__social a:hover {
+   border-color: var(--color-gray-100);
+   background-color: transparent;
+}
+
+.footer__copyright {
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
+}
