@@ -183,4 +183,27 @@ section {
     font-weight: 300;
 }
 
-/* 3-01-59 закончил видео смотреть  */
+/* 3-02-22 медиа запросы  */
+
+/* MEDIA QUERIES (medium screens*/
+@media screen and (max-width: 1024px) {
+    .container {
+       width: var(--container-width-md);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* MEDIA QUERIES (small screens*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
