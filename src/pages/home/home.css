@@ -415,7 +415,26 @@ footer {
     gap: 1rem;
     margin-top: 3rem;
 }
-
-/* FAQs */
-}
 /* 3-13-30 медиа запросы маленкие*/
+/* TESTIMONIALS */
+.testimonials {
+    width: 100%;
+}
+
+/*  FOOTER  */
+footer {
+    margin-top: 7rem;
+}
+
+.footer__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.footer__container article {
+    align-items: center;
+}
+
+.footer__container p {
+    text-align: center;
+}
+}
