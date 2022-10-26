@@ -5,8 +5,6 @@ import VisionImage from '../../images/about2.jpg'
 import MissionImage from '../../images/about3.jpg'
 import './about.css'
 
-/* 3-28-00 закончил видео смотреть  */
-
 const About = () => {
   return (
     <>
@@ -24,13 +22,12 @@ const About = () => {
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eligendi animi 
               dolore consectetur totam necessitatibus maxime eum quisquam aut porro et repellat
-              nam consequatur eaque deserunt dolores molestias officiis corrupti a officia dolorem, 
-              exercitationem facere numquam. Dignissimos, blanditiis distinctio? Nostrum!
+              nam consequatur eaque deserunt dolores molestias officiis corrupti a officia
             </p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam itaque veritatis 
               sint omnis, voluptatum maxime fugiat reprehenderit dolor quos optio mollitia. 
-              Error sit perferendis minus fugit non beatae voluptatum ad!
+              
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -47,13 +44,13 @@ const About = () => {
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eligendi animi 
               dolore consectetur totam necessitatibus maxime eum quisquam aut porro et repellat
-              nam consequatur eaque deserunt dolores molestias officiis corrupti a officia dolorem, 
-              exercitationem facere numquam. Dignissimos, blanditiis distinctio? Nostrum!
+              nam consequatur eaque deserunt dolores molestias officiis corrupti, 
+             
             </p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam itaque veritatis 
               sint omnis, voluptatum maxime fugiat reprehenderit dolor quos optio mollitia. 
-              Error sit perferendis minus fugit non beatae voluptatum ad!
+              Error sit
             </p>
           </div>
           <div className="about__section-image">
@@ -73,17 +70,10 @@ const About = () => {
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eligendi animi 
               dolore consectetur totam necessitatibus maxime eum quisquam aut porro et repellat
-              nam consequatur eaque deserunt dolores molestias officiis corrupti a officia dolorem, 
-              exercitationem facere numquam. Dignissimos, blanditiis distinctio? Nostrum!
+              nam consequatur eaque deserunt dolores molestias officiis corrupti 
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam itaque veritatis 
-              sint omnis, voluptatum maxime fugiat reprehenderit dolor quos optio mollitia. 
-              Error sit perferendis minus fugit non beatae voluptatum ad!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Eaque, architecto. In voluptates reiciendis ad enim.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam itaque veritatis sint omnis, voluptatum maxime fugiat reprehenderit dolor quos optio mollitia. 
             </p>
           </div>
         </div>
