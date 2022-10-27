@@ -15,7 +15,7 @@ const Trainers = () => {
     <Header title='Our Trainers' image={HeaderImage} >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et cum consequuntur ullam minus hic officiis atque?
     </Header>
-    <div className="section trainers">
+    <section className="trainers">
       <div className="container trainers__container">
         {
           trainers.map(({id, image, name, job, socials}) => {
@@ -30,7 +30,7 @@ const Trainers = () => {
           })
         }
       </div>
-    </div>
+    </section>
     </>
   )
 }
