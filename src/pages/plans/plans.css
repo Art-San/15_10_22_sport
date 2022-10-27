@@ -1,0 +1,12 @@
+.plans__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.plan h3 {
+    margin-bottom: 0.8rem;
+    color: aqua;
+}
+
+/* 4-04-07 закончил видео смотреть  */
