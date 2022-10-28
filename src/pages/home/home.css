@@ -438,3 +438,8 @@ footer {
     text-align: center;
 }
 }
+
+.a_link {
+    color: red;
+    font-size: 2rem;
+}

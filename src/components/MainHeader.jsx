@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom"
 import Image from '../images/main_header.png'
 
@@ -8,6 +9,7 @@ const MainHeader = () => {
       <div className="container main__header-container">
         <div className="main__header-left">
           <h4>#100DaysOfWorkOut#</h4>
+          <a className="a_link" href="https://www.youtube.com/watch?v=FiWby-T0Ec0&t=4176s" target="_blank" rel="noreferrer">Смотри сдесь</a>
           <h1>Join The Legends Of The Fitness World</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
