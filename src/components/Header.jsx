@@ -1,7 +1,7 @@
 
 
 const Header = ({title, image, children}) => {
-    console.log(children)
+    console.log('children' , children)
   return (
     <header className="header">
         <div className="header__container">
